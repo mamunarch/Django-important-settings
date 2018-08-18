@@ -7,4 +7,5 @@ in the console panale:
   - git add .
   - git config --global user.email "mamun.arch@yahoo.com"
   - git commit . -m "first"
-  - git remote add origin https://github.com/mamunarch/test.git - git push -u origin master
+  - git remote add origin https://github.com/mamunarch/test.git 
+  - git push -u origin master
