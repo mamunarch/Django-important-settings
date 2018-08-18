@@ -1,6 +1,8 @@
 
 Get the Git software from https://www.git-scm.com
+
 download the software
+
 install using default settings
 
 First Create a new Repository,
@@ -10,7 +12,7 @@ in the console panale:
   - cd my_base
   - git init
   - git add .
-  # - git config --global user.email "mamun.arch@yahoo.com"
+    # - git config --global user.email "mamun.arch@yahoo.com"
   - git commit . -m "first"
   - git remote add origin https://github.com/mamunarch/test.git
   - git push -u origin master
