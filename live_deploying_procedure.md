@@ -71,20 +71,21 @@
 32. activate line 57, 58 (from django.core.wsgi import get_wsgi_application), (application = get_wsgi_application())
 
       # +++++++++++ DJANGO +++++++++++
-      import os
+      import os      
       import sys
 
-      path = '/home/mamunahmed/cbv/cbv' # from source_code
-      if path not in sys.path:
+      path = '/home/mamunahmed/cbv/cbv' # from source_code      
+      if path not in sys.path:          
           sys.path.append(path)
-
-      os.chdir(path)
-      os.environ.setdefault("DJANGO_SETTINGS_MODULE", "cbv.settings")
-      import django
+      
+      os.chdir(path)      
+      os.environ.setdefault("DJANGO_SETTINGS_MODULE", "cbv.settings")      
+      import django      
       django.setup()
-
-      from django.core.wsgi import get_wsgi_application
+      
+      from django.core.wsgi import get_wsgi_application      
       application = get_wsgi_application()
+      
       +++++++++++++++++++++++++++++++++++++++++
       +++++++++++++++++++++++++++++++++++++++++
 
