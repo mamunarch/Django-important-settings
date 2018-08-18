@@ -122,7 +122,7 @@ MEDIA_ROOT = MEDIA_DIR # os.path.join(BASE_DIR, 'media')
 MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static_cdn", "media_root")
 
 LOGIN_URL = '/login/'
-LOGIN_REDIRECT_URL = 'home' # এই url চাইলে login function-এর ভিতরে redirect set করা যায়
+LOGIN_REDIRECT_URL = 'home' # এই url চাইলে login function-এর ভিতরে redirect করা যায়
 LOGOUT_REDIRECT_URL = 'thanks' # if we want to redirect to another page
 
 LOGOUT_REDIRECT_URL = '/login/'
